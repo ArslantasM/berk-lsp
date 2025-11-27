@@ -4,7 +4,7 @@
 
 [![License](https://img.shields.io/badge/License-GPL--3.0-blue.svg)](https://github.com/ArslantasM/berk/blob/main/LICENSE)
 [![Made in Turkey](https://img.shields.io/badge/Made%20in-Turkey%20🇹🇷-E30A17?style=flat&labelColor=FFFFFF)](https://github.com/ArslantasM/berk)
-[![BERK Version](https://img.shields.io/badge/BERK-v0.9.0-E30A17)](https://github.com/ArslantasM/berk)
+[![BERK Version](https://img.shields.io/badge/BERK-v0.9.1-E30A17)](https://github.com/ArslantasM/berk)
 
 ## 🌟 What is BERK LSP?
 
@@ -18,10 +18,9 @@ This language server provides rich IDE features for BERK in any LSP-compatible e
 - ✅ **Real-time Diagnostics**: Syntax and semantic error detection as you type
 - ✅ **Code Completion**: Context-aware suggestions for both Turkish and English keywords
 - ✅ **Hover Information**: Type signatures, documentation, and parameter hints
-- ✅ **Go to Definition**: Jump to function/variable declarations
-- ✅ **Document Symbols**: Outline view of your code structure
-- ✅ **Find References**: Find all usages of a symbol
-- ✅ **Rename Symbol**: Safe refactoring across files
+- ✅ **Go to Definition (F12)**: Jump to function/variable declarations across files 🆕
+- ✅ **Find All References (Shift+F12)**: Find all usages of a symbol workspace-wide 🆕
+- ✅ **Rename Symbol (F2)**: Safe refactoring with keyword protection 🆕
 
 ### Bilingual Support
 - Full IntelliSense for Turkish keywords (`fonksiyon`, `değişken`, `eğer`, etc.)
@@ -202,10 +201,9 @@ View → Output → BERK Language Server
 | Diagnostics | ✅ Full | v0.8.0 |
 | Code Completion | ✅ Full | v0.8.0 |
 | Hover | ✅ Full | v0.8.0 |
-| Go to Definition | ✅ Full | v0.8.0 |
-| Find References | ✅ Full | v0.8.5 |
-| Document Symbols | ✅ Full | v0.8.5 |
-| Rename | ✅ Full | v0.9.0 |
+| Go to Definition | ✅ Full | v0.9.1 |
+| Find References | ✅ Full | v0.9.1 |
+| Rename | ✅ Full | v0.9.1 |
 | Signature Help | 🚧 Planned | v1.0.0 |
 | Code Actions | 🚧 Planned | v1.0.0 |
 | Semantic Tokens | 🚧 Planned | v1.5.0 |
@@ -321,4 +319,4 @@ See [LICENSE](https://github.com/ArslantasM/berk/blob/main/LICENSE) for details.
 
 **Made with ❤️ in Turkey 🇹🇷**
 
-*BERK LSP v0.9.0 - Released November 27, 2025*
+*BERK LSP v0.9.1 - Released November 28, 2025*
